@@ -1,0 +1,60 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+// Base font size
+html {
+  font-size: 62.5%; // 10px
+}
+
+body {
+  box-sizing: border-box;
+  padding: 3rem;
+}
+
+::selection {
+  background-color: $color-primary;
+  color: $color-white;
+}
+
+
+
+
+
+.svg-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -30rem;
+}
+.logo-symbol {
+  width: 60rem;
+  height: 60rem;
+  fill: url(#blue-gradient) #002868;
+}
+
+.logo-text {
+  width: 100rem;
+  height: 100rem;
+  fill: url(#red-gradient) #BF0A30;
+}
+
+
+
+
+
+
+
+//test autoprefixer
+::placeholder {
+  color: blue;
+  font-size: 1.5em;
+}

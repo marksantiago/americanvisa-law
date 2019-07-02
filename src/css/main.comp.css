@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 3rem;
+}
+
+::selection {
+  background-color: #002868;
+  color: #fff;
+}
+
+.svg-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -30rem;
+}
+
+.logo-symbol {
+  width: 60rem;
+  height: 60rem;
+  fill: url(#blue-gradient) #002868;
+}
+
+.logo-text {
+  width: 100rem;
+  height: 100rem;
+  fill: url(#red-gradient) #BF0A30;
+}
+
+::placeholder {
+  color: blue;
+  font-size: 1.5em;
+}
+
+/**
+ * Basic typography style for copy text
+ */
+body {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  color: #777;
+}
+
+.heading-primary {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 1.6;
+  color: #002868;
+}
+
+p {
+  text-align: justify;
+  margin: 2rem auto;
+}
+
+/*# sourceMappingURL=main.comp.css.map */

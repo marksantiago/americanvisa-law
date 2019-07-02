@@ -1,0 +1,24 @@
+/**
+ * Basic typography style for copy text
+ */
+
+body {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  color: $color-grey-dark;
+}
+
+.heading-primary {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 1.6;
+  color: $color-primary;
+}
+
+p {
+  text-align: justify;
+  margin: 2rem auto;
+}
