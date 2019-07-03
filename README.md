@@ -32,19 +32,24 @@ All available tasks can be found in the [`package.json`](package.json) file in t
 ### `clean`
   `npm run clean`
 
-  Delete existing dist files
+  Delete existing compiled code.
+
+### `start`
+  `npm run start`
+
+  Start over from scratch. Deletes the `dist` folder, copies `src` to `dist`, and reruns the `build` and `watch` commands.
 
 ### `serve`
   `npm run serve`
 
-  Start a new server and watch for any scss, js, or image file changes in the `dist` folder.
+  Start a new server and watch for any file changes in the `dist` folder.
 
 ### `build`
   `npm run build`
 
-  Run all of the `build` commands simultaneously, generates all compiled code to `dist`.
+  Run all of the `build` commands simultaneously.
 
 ### `watch`
   `npm run watch`
 
-  Run the `serve` and `watch` commands simultaneously, generates all compiled code to `dist`, and syncs with the server on file changes.
+  Run the `serve` and `watch` commands simultaneously.
