@@ -5,7 +5,13 @@ Files for the americanvisa.law website.
 * The development code is in the [`src/`](src) directory.
 * The build process relies on `npm scripts`.
 
-Boilerplate code taken from [html5boilerplate.com](https://html5boilerplate.com/), [Sass Boilerplate](https://github.com/HugoGiraudel/sass-boilerplate), and [npm-build-boilerplate](https://github.com/damonbauer/npm-build-boilerplate).
+Boilerplate code taken from the following:
+
+* [html5boilerplate.com](https://html5boilerplate.com/),
+* [Sass Boilerplate](https://github.com/HugoGiraudel/sass-boilerplate),
+* [npm-build-boilerplate](https://github.com/damonbauer/npm-build-boilerplate),
+* [Dave Gamache's Skeleton Framework](http://getskeleton.com),
+* and [Seth Coelen's Skeleton-Sass version of the Skeleton Framework](https://www.sethcoelen.com/).
 
 ## Setup
 
