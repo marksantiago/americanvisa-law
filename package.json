@@ -46,7 +46,7 @@
   "homepage": "https://github.com/marksantiago/americanvisa-law#readme",
   "devDependencies": {
     "autoprefixer": "^9.6.0",
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.27.10",
     "clean-css-cli": "^4.3.0",
     "eslint": "^6.0.1",
     "eslint-config-standard": "^12.0.0",
